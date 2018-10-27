@@ -1,4 +1,6 @@
 
+
+alert('this is Javascript {;-}');
 //Date and Time format
 let dateTime = new Date();
 document.getElementById("date").innerHTML = dateTime;
