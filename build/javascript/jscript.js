@@ -5,7 +5,6 @@ alert('this is Javascript {;-}');
 let dateTime = new Date();
 document.getElementById("date").innerHTML = dateTime;
 
-
 //date drop down with event listener and function
 let button = document.getElementById('button1').addEventListener('click', clickedButton);
 
@@ -24,7 +23,7 @@ function clickedButton (){
 
 
 
-//button2 selector for wrapper
+//button2: selector for wrapper
 let container = document.getElementById('wrapper');
 
 let button2 = document.getElementById('button2').addEventListener('click',clickMe);
@@ -41,8 +40,8 @@ function clickMe (){
     
     };
 
-    //button: 3
 
+//button3:
 let button3 = document.getElementById('button3').addEventListener('click',clickIt);
 
 let footerButton = document.getElementById('footer');
@@ -51,9 +50,9 @@ function clickIt (){
     
       //toggle button
     
-     if(footerButton.style.display==='none'){
+    if(footerButton.style.display==='none'){
     footerButton.style.display= 'block';
-    }else {
+    }else{
     footerButton.style.display='none';
     }
     
