@@ -1,6 +1,6 @@
 
 
-// alert('this is Javascript {;-}');
+alert('this is Javascript {;-}');
 //Date and Time format
 let dateTime = new Date();
 document.getElementById("date").innerHTML = dateTime;
@@ -22,11 +22,9 @@ function clickedButton (){
     console.log('click test2');  */
    };
 
-   //button2
-   
-/*Button and function for the paragraph background color change */
 
-//selector for wrapper
+
+//button2 selector for wrapper
 let container = document.getElementById('wrapper');
 
 let button2 = document.getElementById('button2').addEventListener('click',clickMe);
