@@ -1,0 +1,52 @@
+
+
+#modal_content {
+    display: none;
+    background-color: #fae208;
+    color:rgb(36, 15, 0);
+    padding: 40px 0px 0px 0px;
+    width: 80%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#btn, .container {
+    border-style: none;
+    background-color: rgb(233, 235, 112);
+    color:whitesmoke;
+    height: 30px;
+    
+}
+
+#btn, .container:hover {
+    border-style: none;
+    background-color: whitesmoke;
+    color:rgb(36, 15, 0);
+    height: 30px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(233, 235, 112);
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab {
+    color:rgb(36, 15, 0);
+    font-size: 3rem;
+    margin: 7px;
+}
